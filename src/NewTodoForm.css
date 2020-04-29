@@ -1,0 +1,31 @@
+.NewTodoForm {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.NewTodoForm-inputs {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.NewTodoForm-textin {
+  flex-grow: 1;
+  border: none;
+  padding-left: 20px;
+  outline: none;
+}
+
+.NewTodoForm-button {
+  border: white 0.5px solid;
+  background-color: #e6556b;
+  color: white;
+  outline: none;
+  padding-right: 20px;
+  padding-left: 20px;
+}

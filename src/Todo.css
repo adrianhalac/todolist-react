@@ -1,0 +1,65 @@
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f75c73;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 30px;
+}
+
+.Todo-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f75c73;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 40px;
+}
+
+.Todo-form {
+  display: flex;
+}
+
+.Todo-task {
+  flex-grow: 1;
+}
+
+.Todo-buttons {
+  display: flex;
+  width: 50px;
+  justify-content: space-around;
+}
+
+.fa-trash-alt {
+  color: white;
+}
+
+.fa-edit {
+  color: white;
+}
+
+.Todo-edit-input {
+  border: none;
+  padding-left: 20px;
+  outline: none;
+}
+
+.Todo-edit-save {
+  border: white 0.5px solid;
+  background-color: #e6556b;
+  color: white;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
